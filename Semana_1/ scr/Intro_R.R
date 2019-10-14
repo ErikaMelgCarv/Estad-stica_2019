@@ -1,4 +1,5 @@
-# Semana 2 respuesta ejercicios Introducción a R
+# SEMANA 2, PRÁCTICA 1 - Introducción al lenguaje de programacíon en R
+#Respuesta a ejercicios 
 
 # Ejercicio 1: Reasigne 5 a la letra z, usando el operador <-, y pregunte ¿qué es z?
 
