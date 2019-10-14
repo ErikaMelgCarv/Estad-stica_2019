@@ -1,0 +1,274 @@
+﻿OTU,Specimen_no,Barcode,Taxon,locality,kode_cluster,altitude ,w_ l.s,w_o l.s   ,spine_density,spine_shape,ocrea,knee,length ,petiole_length ,no_of_pairs,uppermost,uppermost,penultimate ,penultimate ,Median ,Median ,lowermost ,lowermost ,Prophyll_armature,Peduncle_bracts_shape,rachis_bracts_armature,no_of_cluster,cluster_length ,rachilla_no,rachilla length,bracts texture,bracts shape,bracts_texture,bracts _shape,scales_no,shape,L ,W ,shape,present_not
+1,W.Ave 218,L 3933429,javensis,"Kp. Sekam , tapah, Perak, West malaysia (04°20'N, 101°20'E); 800 m a.s.l",1,800,12,8,2,2,2,2,48,6,6,15,6.5,15.5,6.5,15,5,15.5,7,2,1,2,0,14,7,10.5,1,0,,,,2,,,,1
+2,S 54137,L0617893,javensis,"Gn. Bawang, Mattang; 600 m a.s.l",1,600,15,10,3,0,2,1,,0,6,12.5,3.5,15.5,4.5,13,3,6,2,,,,,,,,,,,,,,,,,1
+3,Ambi & Arifin AA 453,L 0372234,javensis,"Wanariset Samboja, east Kalimantan",1,150,6,5,2,2,1,1,,1,6,12.5,3.5,12.5,4.5,12,4,8,2.5,0,0,,,,8,3.5,1,0,,,,,,,,1
+4,Rahmat Si Toroes No 331,L 3928337,javensis,"Parbasiran Merbau, East Sumatra",1,50,15,10,2,0,0,1,43,2,5,17.5,4.5,18.5,5.5,18.5,5,9.5,2.5,2,2,2,0,13,5,9,0,0,,,9,1,0.8,0.7,0,1
+5,W.J. Lutjeharms WJL 4253,K 000934698,8: var polyphyllus,"Enggano, West coast Sumatra; ♂ -- cited in Furtado as var. Polyphyllus",2,180,35,25,3,0,2,1,63,0,10,21.5,5,18.5,5.5,18,4,9,4,,,,,,,,,,,,,,,,,1
+6,Rahmat Si Toroes No 4350,L 3928336,javensis,"Labuan Batu, Gn. Pangaribuan, East coast Sumatera",1,1200,8,6,1,1,2,0,40,3,6,17.5,4.5,17.5,5.5,16,4,12,3,2,2,2,2,,2,5,1,0,,,,,,,,1
+7,Carel Hamel & Rahmat Si Toroes N0 765,L 3928341,javensis,"Karo, East coast Sumatera ; young plant",1,600,6,4,1,1,2,1,23.5,2,6,12,3,12,3.5,10.5,3.5,8,2.5,,,,,,,,,,,,,,,,,1
+8,W.Ave  298,L 3933508,javensis,"Kp. Sekam, NE of Tapah,Perak, W. Malaysia;(04°20'N, 101°20'E); alt. 1150 m",1,1150,6,4,1,3,2,1,28.5,4,4,13,4.5,14.5,4.5,11.5,4.5,9,2.5,2,1,2,1,,8,4.5,,,0,1,,,,,,1
+9,T. Smitinand No 637,L 3933495,javensis,"Nackhon Si Thammarat, Thailand",1,15,13,5,3,3,1,0,30,0,6,16,5,16,5.5,10,3.5,5,1,2,2,2,4,16,8,6.5,,,3,0,,,,,,1
+10,AFG Kerr 11753,L 3933493,javensis,"Thailand, Ranawang",1,100,6,4,1,1,1,2,33.5,2,4,14.5,2.5,10,1.5,13.5,3.5,6,2,2,1,2,,,8,8.0,,,3,1,,,,,,1
+11,Kosterman et al. no 136,L 3928349 / sh no 962 65 556,5: var congestiflorus,"Ujung Kulon Reserves. Mt. Pajung, West Java ; 250 m a.s.l ; infruct",3,250,5,4,1,1,1,0,18.5,0,5,17,4,14,3.5,11,3.5,7,2.5,0,1,2,0,,4,4.5,1,0,,,,,,,,1
+12,Lotzy s.n.,L 3928357,javensis,Java,1,1000,8,5,2,1,1,1,45,0,0,19.5,5,16,6,18,6.5,7,2.5,5,2,,,,,,,,,,,,,,,1
+13,JD 5737,L 0617885,javensis,"Bkt. Marango, Pulau Sapi, Sandakan, Sabah; 20 m a.s.l",1,20,10,7,3,0,1,1,43,2,5,14.5,3,16.5,4.5,15,4,5.5,2,,,,,,,,,,,,,,,,,1
+14,Vermeulen No 869,L 0617900,javensis,"Sabah, Sandakan, Mt. Tawai, 5°33 N 117°05 E; 700 m alt",1,700,15,8,3,3,1,2,34,2,8,11,3.5,12.5,4.5,13,5.5,5,2,2,2,0,5,16,2,9.5,,,3,0,,,,,,1
+15,RJ Johns 6509,L 0617890,8: var polyphyllus,(5°33N. 117°05E);  700m a.s.l,2,70,5,3,1,2,1,2,30,2,8,6.5,2.5,8.5,2,12,2,9,2.6,,,,,,,,,,,,,,,,,1
+16,JD 5301,L 0617904,13: Calamus sp 1,"slopes of Mt. Mulu NP, 4th division, Sarawak; 1200 m",4,1200,15,8,4,3,0,0,63,7,11,13,2,11,2,13,3.5,0,2,0,2,2,0,,6,3,0,1,,,,,,,,0
+17,Moore & Meijer 9208,L 0617874,8: var polyphyllus,"Sabah, Slope of Bukit Tenom above Tenom by water-works stream to crest of ridge in Crocker Ridge Forest Reserve",2,300,7,5,1,1,2,1,38.5,1,11,12,2.5,12,2.5,16.5,2.5,11.5,2,2,2,2,2,7,4,4.5,1,0,,,7,1,,,0,1
+18,Furtado SFN 33068,L 3928282 / sh no 960 87 010,8: var polyphyllus,"Kedah, Bukit Seblak",2,150,10,5,2,0,1,1,67,0,10,17.5,2.5,19.5,4,18,4.5,7.5,2.5,,2,2,,,4,8.0,2,0,,,,,,,0,1
+19,Furtado SFN 33053,,javensis,Kedah,1,150,,,,,,,,,,,,14.5,4.5,14.5,4,8,2,2,1,2,,,,,1.2,,,,,,,,,1
+20,Amin & Jarius SAN 116575,L 0617894,8: var polyphyllus,"Bambangan, hillside Ranau district, Sabah; ♂",2,1100,8,6,1,1,1,1,35,0,9,12,2,12,2.5,17,2.5,120.5,2.5,2,2.4,0,0,16,22,3.5,,,1,1,,,,,,1
+21,C. Niyomdham 1254,L 3933498,javensis,"Klong Seang, Pang Nga",1,600,4,2,1,4,1,0,29,2,6,17,2,18.5,1,20,2,17,1,,,,,,,,,,,,,,,,,1
+22,Vermeulen&Duistermaat No 679,L 0617903,8: var polyphyllus,"Sabah, Keningau;  (05°28’N, 116°03’E); 1500-1600 m alt.;",2,1550,8,3,1,4,1,1,40,0,10,8,0.8,9.5,1,13,1,8,1,0,2,0,1,12,6,4.0,,,1,1,,,,,,1
+23,JD 5992,L 0617905,8: var polyphyllus,"Gn Pueh FR, Sematan 1st district, Sarawak; 120 m alt",2,120,5,3,1,1,1,0,21,0,9,8.5,1,9.5,1,9,0.7,7,0.8,,,,,,,,,,,,,,,,,1
+24,Dyg. Awa & Bernard Lee S 50593,L 0617892,javensis,"Sarawak, Bt. Lawi, Bario",1,2000,6,2,1,2,2,1,36,1,5,10,1,10.5,1,12.5,2,13,1.5,0,2,0,1,,3,2.0,1,1,,,1,0,,,,1
+25,Ag. Nordin Abas No 85869,L 0617865,8: var polyphyllus,"Crocker range, Keningau, Sabah; 900 m alt.",2,900,7,4,0,,2,0,36,1,11,16,1.5,15,1.5,16.5,1.5,12,1.5,2,4,0,1,16,3,3.5,1,1,,,9,1,,,0,1
+26,"Gen Murata, Kunio Iwatsaki, Masahiro Kato, JP Mogea B 2612",L 0617862,javensis,"Tabang, Mt. Mendam, East Kalimantan; 300-880 m alt",1,500,6,4,1,1,1,1,26,0,4,15,2.5,14.5,2.5,11.5,2.5,7.5,2,0,2,0,1,,6,5.0,,,1,0,,,,,,1
+27,T Smitinand No 841,L 3933496,javensis,"Nackhon Si Thammarat, Thai Peninsula; ♂",1,50,6,3,2,2,1,1,34,0,6,15,2.5,17.5,3.5,18,4.5,8,2,,1,2,4,9,7,5.0,,,1,0,,,,,,1
+28,John Dransfield JD 4519,L 3928253,javensis,"Tapah Hill, Perak, Malay Peninsula, 500 m a.s.l",1,500,10,6,3,3,1,0,55,0,12,15,4,18,4.5,18.5,4.5,6.5,1,2,2,2,6,13,12,7.0,,,1,0,,,,,,1
+29,W. Ave No 114,L 3928105,javensis,"Kp. Sekam, Tapah, Perak, West Malaysia (04020’N, 101020’E)",1,800,10,5,3,0,0,1,65,0,9,21,3.5,23,3.5,24,4,11.5,2.5,2,,0,8,6,7,6.5,,,1,0,,,,,,1
+30,W. Ave No 218,L 3933429,javensis,"Kp. Sekam, Tapah, Perak, West Malaysia (04°020’N, 101°020’E); 800 m alt",1,800,10,6,4,0,0,1,48,0,6,17.5,4.5,18,4,18,4.5,11,3.5,,,,,,,,,,,,,2,,,,1
+31,JD 5783,L 3933441,javensis,"Telupid, slope of bkt Tangkunan, Sabah",1,226,8,5,2,3,1,1,44,0,8,13,3.5,14,3.5,17,4.5,7.5,2.5,2,2,0,0,22,6,10.0,1,0,,,,,,,,1
+32,JD 4375,L 0617877,javensis,"Kenayan, Balikpapan, East Kalimantan",1,43,6,4,1,1,2,0,64,7,6,18,3,16,3,16,4,11,2.5,,,,,,,,,,,,,,,,,1
+33,JD 5672,L 0617870,javensis,"Sabah, Kinabalu",1,1500,9,6,2,1,1,1,30,4,4,25,3.5,20.5,3,27,3.5,15,2,,,,,,,,,,,,,,,,,1
+34,Chew & Corner RSNB 4835,L 0617867,12: var nova,"Mt. Kinabalu, Sabah; Mesilau cave; alt. 2000 m",5,2000,8,4,4,3,3,0,59,5,4,25,3.5,26,3.5,24,4,20,3,0,1,2,0,7,5,4.0,1,0,,,,,,,,1
+35,JD 3355,L 3933512,javensis,Sumatra,1,,7,5,1,2,1,0,30,0,6,15,2.5,14,3.5,15,3,6.5,2.5,,,,,,,,,,,,,,,,,1
+36,"JP Mogea, Gen Murata, Masahiro Kato B 1692",L 0617878,javensis,"Borneo, Kalimantan Selatan",1,100,20,10,4,1,1,2,46,0,6,21,4.5,18,4.5,19,4.5,8,2.5,,,,,,,,,,,,,,,,,1
+37,Nordin Abas SAN 85981,L 0617880,javensis,"Sabah, crocker range",1,1000,9,6,0,1,1,1,36,1,7,11.5,2,13,3,15.5,2.5,6,1.5,2,1,0,1,8.5,7,,,,1,0,,,,,,1
+38,JD 5699,L 0617868,javensis,"Sabah, Sandakan, Kinabalu, Ranau",1,1500,7,5,1,1,2,2,52,4,5,16.5,3.5,16.5,4.5,16,3,13.5,2.5,,,,,,,,,,,,,,,,,1
+39,GHS Wood San A 3990,L 0617873,javensis,"Sandakan, Lungmanis",1,60,8,4,1,3,1,0,36,0,4,17.5,3,19,3.5,19.5,3.5,10,1.5,2,2,2,1,5.5,6,6.0,,,3,0,,,,,,1
+40,Heyne A bis,L 3928103,javensis,Borneo,1,100,5,2,2,1,2,1,35,0,6,18,3,19,3,19.5,3,10,1.5,,,,,,,,,,,,,,,,,1
+41,Korthals no 9,L 0617871,javensis,Borneo,1,100,7,4,1,3,1,1,34,2,5,14,3.5,15,4,12.5,3.5,6.5,3,,,,,,,,,,,,,,,,,1
+42,De Vogel 8695,L 0617895,4: C. impar,,6,600,5,3,1,4,2,2,30,4,2,23,2,,,12,1,,,2,2,2,0,,2,6.0,3,1,,,,,,,,1
+43,MCS 140,L 0617889,javensis,"East Kalimantan, Berau",1,50,6,4,1,2,1,1,27,2,6,18.5,3.5,18.5,3,16,3.5,9.5,2,,,,,,,,,,,,,,,,,1
+44,JD & JPM 4075,L 3928345,javensis,"Tapan km 19, Sungaei Penuh, Jambi, Sumatera; 1000 m alt",1,1000,6,3,1,0,0,0,40,2,5,18.5,3.5,18,3,16,3.5,9.5,2,2,1,0,,2,4,,,,3,1,,,,,,1
+45,Hary Wiriadinata HW 3299,L 0617896,javensis,"Tumbang Tapi, Bukit Raya, Sumatera; 100 m alt",1,100,6,4,1,2,1,1,41,1,5,15.5,2.5,14,2.5,16.5,2,10,2,2,2,2,,,,,,,,,,,,,,1
+46,"JP Mogea, Kunio Iwatsuki, Gen Murata, Masahiro Kato B 1590",,javensis,"North west Tabang, Mt. Batukenye, East Kalimantan; 150 m",1,150,5,3,1,1,0,1,25,0,5,15.5,2.5,14,2.5,11.5,2.5,8,2,,,,,,,,,,,,,,,,,1
+47,JD 4650,L 0617884,javensis,"Sarawak, Sabal Tapang FR",1,64,8,5,1,1,0,1,47,0,6,17.5,2.5,20.5,3.5,15,2.5,8,2,,,,,,,,,,,,,,,,,1
+48,JP Mogea JPM 1591,L 0617883,javensis,"East Kalimantan, Gunong Batukenye",1,800,8,4,1,1,1,1,24,0,4,16,4,14,3,15,3,4,8,0,1,2,0,,2,2.0,1,1,,,,,,,,1
+49,JP Mogea JPM 1620,L 0617863,javensis,"Kalimantan, Gunong Mendam",1,385,5,3,1,2,1,1,31,0,5,17,3.5,16.5,4,15,3,5,0.5,0,0,2,1,,3,3.0,1,0,,,,,,,,1
+50,Amin&Sigin SAN 69127,,javensis,"Sepulut FR, Keningau, Sandakan",1,10,8,5,1,1,2,2,44,6,,14,3.5,13.5,3,16,3.5,16,2.5,0,1,,1,7.5,5,,6,1,0,,,,,,,1
+51,Bartlett 8095,L 3928273,javensis,"Asahan, Silo Maradja, East coast Sumatera",1,45,6,3,1,2,1,0,43,0,6,17,3.5,18.5,2.5,17,2,7,2,,,,,,,,,,,,,,,,,1
+52,W. Meijer No 4038,L 3933514,javensis,"Ladang lawas, Mt. Sago, Payakumbuh, Central Sumatera; 1000 m a.s.l",1,1000,7,5,1,0,2,1,56,4,5,24.5,3.5,24,3,21,2.5,12,2,,,,,,,,,,,,,,,,,1
+53,Timothy J Forsyth TJF 29,L 3928271,javensis,"Kerinci Sebelat, Bengkulu, Sumatera; 1200 m a.s.l",1,1200,6,4,1,1,1,1,38,0,6,19.5,3,16.5,3.5,14.5,2.5,9,2,2,1,,,,,6.0,,,1,0,,,,,,1
+54,JD JPM 3967,L 3928274,javensis,"Gunung Putih, Muro Kulampi, West Sumatera; 600 m",1,600,5,3,2,3,0,1,30,0,5,16,2,13,1.5,11,1.5,5,1,,,,,,,,,,,,,,,,,1
+55,Kathrin Shreckenberg KS 19,L 3928268,javensis,"Kerinci Sebelat, Bengkulu, Sumatera; 1000 m a.s.l",1,1000,6,4,1,1,1,1,38,0,6,15,3.5,17,3.5,13,2.5,4.5,1.5,,,,,,,,,,,,,,,,,1
+56,N. Niyomdhan 1253,L 3933497,javensis,"Klong Seang, non hunting area, Pang Nga, Thailand;",1,192,3,2,1,4,0,1,28,5,3,17,2,,,10.5,2,4.5,2,,,,,,,,,,,,,,,,,1
+57,W. Ave 136,L 3928259,4: C. impar,"Kp Sekam, Tapah, Perak, West Malaysia; 4°20'N, 101°20'E; alt 1020 m",6,1020,4,2,1,2,2,1,41.5,7,2,25.5,3.5,21.5,2.5,,,8.5,1.5,,,,,,,,,,,,,,,,,1
+58,Kostermans s.n.,L 3928360,javensis,"Mt. payung, Ujung Kulon, South west Java; 100 m ; infruct",1,100,8,6,1,1,1,0.1,25,2,5,13,2,11,1.5,11,1.5,8,2,0,1,2,1,,,4.0,5,1,0,,0,,0,,,1
+60,Amin et al. SAN 114102,L 0617891,4: C. impar,"Sabah, Sandakan, Ranau, Kepangian;  Inflor., infruct;",6,570,5,3,1,2,2,1,25.5,7,2,28.5,3.5,14.5,2.5,14,2,,,0,4,0,,,12,7.0,1,0,,,,,,,,1
+61,Kessler et al. PK 2688,L 0372235,5: var congestiflorus,"Lampunut, Maruwai, Long Iram, East Kalimantan (00°03’N, 114°052’E); Kerangas forest; infructs",3,900,7,4,1,1,1,0,41,0,5,24,2,25,3.5,23,3.5,5,1,0,1,0,0,,3,6.0,1,0,,,1,0,,,,1
+62,Sidiyasa et al. 1953,L 3928428,javensis,"Mendalam river bank, Putussibau, betung Kerihun NP, West Kalimantan (00°59’N, 113°059’E); 160 m alt., ♀, young infruct",1,160,7,5,1,1,0,1,40,0,6,20,4,20,5,19,4,9,2.6,0,2,1,0,,8,7.0,1,0,,,6,0,1,0.8,0,1
+63,Van Valkenburg JVV 1320,L 0372224,javensis,"Dilang Putih, Bantian Besar, Kutai, east Kalimantan; 50 m alt",1,50,7,5,2,1,1,1,50,2,6,19,4,17,5,19,5,11,2.5,,,,,,,,,,,,,,,,,1
+64,EF de Vogel 1769,,javensis,"Near Mt. Sarempaka, Muara Uja, Kab. Tanjung, South Kalimantan (01°049’N, 115°044’E); 450 m alt",1,450,9,5,2,0,1,1,35,0,,16,3.5,15,5,13,3,9.5,1.5,2,2,2,,,,8.5,,1,0,,,,,,,1
+65,Mogea 3988,L 3933440,javensis,"Mendawai area, Bukit Raya, Katingan, Central Kalimantan; 1650 m alt.; ♂ inflor.",1,1650,10,5,2,0,1,0,52,0,4,29,4,24,4,23,3.5,13,2,2,2,0,,,,10.0,,,3,0,,,,,,1
+66,JD 5811,L 0617881,javensis,"Sapa Payau FR, Telupid, Sandakan, Sabah; 100 m alt",1,100,8,4,1,1,0,1,41,0,5,21,2,20,2.5,20,3.5,10,2,,,,,,,,,,,,,,,,,1
+67,JD 4706,L 0617875,javensis,"Ulu Bulaga, Kuala Linau, Rumah Nyauing, Sg. Masoh, Sarawak; 200 m alt.; ♂",1,200,,5,0,,1,1,56,3,4,30,4.5,20,5,19,5,10,2.5,2,2,0,,,,6.0,,,1,0,,,,,,1
+68,JD 4728,L 0617876,javensis,"Gunung Matang, Kuching, Sarawak; sterile",1,270,9,4,1,1,2,2,65,7,8,26,2.5,22,2.5,19,3,16,1.5,,,,,,,,,,,,,,,,,1
+69,Cuadra A 3023,L 3933709,javensis,"Padas river, halojilat, Beaufort, Sandakan, North Borneo",1,11,6,3,1,1,1,1,63,7,5,24,3,23,3,18,3.5,5.5,2.5,,,,,,,,,,,,,,,,,1
+70,Meijer SAN 21064,K 000113394,4: C. impar,"Bukit Ampuan, Ranau, Sandakan, North Borneo; 800 m alt; inflor",6,800,5,3,0,,2,2,31,7,2,25.5,2,,,,,11,2.5,0,1.4,0,,,,,1,1,,,,,,,,1
+71,W. Ave 145,L 0617866,javensis,"Kp. Sekam, N.E. Tapah, Perak, Malaysia; 850 m alt.",1,850,6,3,1,1,2,1,28,1,4,16,3.5,16,2,11,2,8.5,1.5,,,,,,,,,,,,,,,,,
+72,W. Ave 55,L 3933510,javensis,"Kp. Sekam, N.E. Tapah, Perak, Malaysia; 700 m alt.",1,700,4,2,1,1,1,1,55,30,4,17,2.5,16,2.5,11.5,2,9.5,1.5,,,,,,,,,,,,,,,,,
+73,SAN 69853,L 0617909,javensis,"Sabah, Sandakan, Sipitang, mandulang-Maligan",1,16,16,10,0,0,1,1,55,5,6,17.5,2.5,18.5,3.5,23.5,4,13.5,1.5,2,1,0,2,,7,6.0,,,1,0,,,,,,
+74,Rosemarry Gianno A 668,L 3933507,javensis,"Malaysia, Pahang, Tasek Bera",1,31,8,5,1,3,0,0,67,7,6,20,3,18,4,17,3.5,10,2.5,,,,,,,,,,,,,,,,,
+75,Whitmore FRI 12330,L 3933505,javensis,"Malaysia, Kepong, NW Johore, Mt. Ledang (mt. ophir); 1500 m alt.; inflor",1,1500,6,4,1,1,1,1,34,2,5,15,2.5,16,2.5,10.5,3,6.5,0.8,0,2,2,,,,,1,0,,,,,,,,1
+76,JD 1434,L 3928364,4: C. impar,"West Java, Mt. kendeng, Mt.Pajung; 150 m alt.; ♂",6,150,4,2,0,3,1,1,32,2,3,21.5,2.5,19,2.5,12.5,2.5,8.5,1.5,0,2.4,0,0,,3,6.0,,,1,0,,,,,,1
+77,Backer 9996,L 3928363,javensis,"West Java, Jasinga, Gn.Gede; 800-1000 m alt., ♂",1,900,5,3,2,1,1,0,40,1,6,15,1.5,14,3,13,2.5,6.5,1,0,1,2,4,7.5,9,7.0,,,3,1,,,,,,
+78,Backer 23821,L 3928362,javensis,"West Java, Cianjur, Gunung Sanggabuana; 1200 m alt.; inflor",1,1200,6,4,2,1,1,0,25,2,5,16,2.5,15,2.5,13.5,3,8,2,2,1,0,,,,3.5,3,0,,,,,,,,1
+79,JD 1106,L 3928358,javensis,"West Java, Cibodas, forest fragmen in garden",1,1300,5,3,1,3,2,1,40,7,5,18,3,17,3.5,16,2.5,8,1.5,,,,,,,,,,,,1,0,,,,
+80,Kosterman 23841,L 3928350,javensis,"West Java, Sukabumi Jampang Tengah, Lengkong,650 m alt.; ♀, infruct",1,650,7,3,0,2,1,0,30,0,5,16,1.5,16,2.5,13.5,2.5,17,2,2,1,2,,,,4.5,,,,,2,0,,,,1
+81,JD 1033,L 3928351,javensis,"West Java, Sukabumi Jampang Tengah, Lengkong;  600 m alt, inflor.",1,600,5,3,1,3,2,1,40,2,5,15.5,2.5,16.5,2.5,12,2.5,6.5,1,0,3,2,,,,3.5,1,1,,,10,1,,,0,1
+82,Junghun 43,L3928354,javensis,"West Java, Gn. Patuha",1,1500,5,3,2,0,2,0,39,1,6,17.5,2.5,16.5,3,18,2.5,7.5,2,0,2,0,1,9.5,6,6.0,,,3,0,,,,,,1
+83,Moore,L 0617910,javensis,Sandakan,1,100,7,5,1,1,2,,91,0,7,26.5,4.5,25,4,21.5,3.5,16.5,3.5,,,,,,,,,,,,,,,,,1
+84,SAN 100151,L 0617898,javensis,"Sabah, Sandakan, Ranau, Sagindai; 800 m alt",1,800,8,5,0,1,1,1,58,2,6,14.5,2.5,17,3.5,20,3.5,11,2.5,2,1,2,,,,,,,,,,,,,,1
+85,De Vogel 1701,L 3933439,javensis,"South Kalimantan, Kab. Tanjung, Muara Uja, Mt. Sarempaka; 450 m alt",1,450,10,4,1,1,1,1,45,2,4,17,3.5,17,2.5,16,4,7.5,2.3,1.2,2,2,,,,,,,,,,,,,,1
+86,JD 5673,L 0617882,javensis,"Sabah, Sandakan, Kinabalu; 2000 m alt., as JD 5672, but ♂",1,2000,8,5,2,1,0,1,40,4,5,15,3.5,16,3.5,14,4,11,2.5,2,1,1,,,,,,,,,,,,,,1
+87,Fidilis Krispinus San 95821,,javensis,"Inflor, infruct",1,,7,5,1,1,1,1,43,0,,19,4,17,4,15,3.5,9,2,2,2.4,2,0,,7,5.0,1,0,,,,,,,,1
+88,Bernard Lee S 52424,L 0617902,javensis,"Sarawak, Lawas, Ulu Trusan, Bukit Tebunan; 1000 m alt.; ♂",1,1000,10,,1,3,2,1,36,5,4,20,4,18,3,20,4,12,1.5,2,2,2,1,,7,7.0,,,1,0,,,,,,1
+89,Masahiro Kato & Harry Wiriadinata B 4943,L 0617908,javensis,"East Kalimantan, Gunong Kongkat; 850-1150 m alt.",1,1000,10,6,0,,0,1,55,7,4,,,,,14,3.5,9,3,2,1.2,0,,,,,,,,,,,,,,1
+90,Fidilis Krispinus SAN 114061,L 0617899,5: var congestiflorus,"Sabah, Sandakan, Pandewan, Mesopo River; ♀; Taxon 10",3,17,7,5,2,3,0,0,45,2,6,17,3.5,15,3.5,16,3,11,2.5,2,2.4,2.2,,,,,,,,,0,,0,,,1
+91,Lambach 1328,L 3928335,javensis,"South Sumatra, Palembang, Kebau, Pematang Ulu; 150 m alt.",1,150,8,5,1,2,2,1,,4,6,19,3.5,16,4,17,4.5,10,2.5,2,,,,,,,,,,,,,,,,1
+92,Haap 556,L 3928347,javensis,"Sumatera, Batoe Island; ♂",1,94,10,5,2,2,1,1,32,2,6,20,3.5,19,4,17,4.5,8,2.5,2,1,2,,,6,6.0,,,1,0,,,,,,1
+93,Lorzing 8744,L 3928270,javensis,"Sumatera, Sibolangit, Karo Plateu, Kabanjahe;1150 m alt",1,1150,6,4,1,3,2,2,40,5,5,17,3.5,17,4.5,15,5,10.5,3,2,2,0,,,,5.0,1,1,,,,,,,,1
+94,JD 3595,L 3928342,javensis,"Sumatera, bengkulu, Kepahiang km 20; 500 m alt.; infruct",1,500,8,5,1,1,1,1,40,0,7,19.5,3,20,4,19,3.5,9,2.5,0,2,0,2,7,5,8.0,1,1,,,9,2,,,,1
+95,Harry Wiriadinata & Mashuri 669,L 3928267,javensis,"North Sumatera, Bohorok, Bkt lawang, Mt. Sinar Alas; 250 m alt.; ♂",1,250,10,7,2,3,1,1,42,0,7,14,3.5,13.5,3.5,15,3.5,5,1,2,2,2,,,,8.5,,,1,1,,,,,,1
+96,WJ Lutjeharms WJL 4253,L 3933513,javensis,"Indonesia, Palembang, Enggano Isl.",1,180,8,4,1,3,1,1,56,0,,19,3.5,20,3,14,3.5,5.5,1.5,0,2,2,,,,9.0,1,0,,,,,,,,1
+97,Lorzing 13718,L 3928334,javensis,"North Sumatera, Karo, Kabanjahe; 1150-1200 m alt; ♀",1,1200,8,4,1,1,2,1,34,2,5,15,3.5,14,4,14,3.5,10,2.5,1,2,0,0,,,5.0,1,0,,,,,,,,1
+98,de Wilde& de Wilde-Duyfjes 12847,L 3928339 / sh no 340888,8: var. polyphyllus,"Aceh, Gn. Leuser, Ketambe, N.W. Kutatjane – Mt. Guhra;200-400 m alt.;♀",2,300,10,5,2,3,1,1,58,1,8,21,3.5,20.5,4,17.5,4,10,2.5,2,2.3,2,,,,9.0,1,0,,,,,,,,1
+99,JD 3613,L 3928265,javensis,"Sumatera, bengkulu, Kepahiang, Pagar Gunung;700 m alt.;♀",1,700,8,5,2,0,1,1,40,2,7,16,4,17,4.5,15,4.5,7,2,2,4,2,2,,,9.0,0,1,,,,,,,,1
+100,JD 2553,L 3928344,javensis,"Sumatera, Jambi, Sungai Air Hitam, Berbak; ♂; peat swamp forest",1,22,9,5,2,3,1,1,50,2,6,,,20,5,19.5,4.5,7.5,2,2,2,2,5,10,6,6.0,,,1,,,,,,,1
+101,JD & D. Saerudin 1830,,javensis,"Sumatera Utara, Tj. Pura, Ulu Besitang; 50 m alt.; ♂",1,50,8,5,1,3,1,1,30,0,,17,3,15.5,3,14,3.5,7,1.5,2,2,0,,,,5.0,,,1,1,,,,,,1
+102,JP Mogea 626,L3928343,javensis,"Sumatera, Aceh tenggara, Gn. Kemiri; 700 m alt.",1,700,10,5,2,1,2,0,85,7,10,18,3.5,20,3.5,22,3.5,20,3,,,,,,,,,,,,,,,,,1
+103,W. Ave 229,L 3933509,javensis,"Malay Peninsula, Perak, Tapah, Kp. Sekam; 980 m alt.",1,980,5,3,1,2,1,1,33,3,4,15.5,3.5,,,15,3.5,7,2.5,1,2,1,4,11,13,4.0,,,1,0,,,,,,1
+104,AFG Kerr 7186,L 3933500,javensis,"Thailand, Bachaw, Pattani; 500 m alt.",1,500,6,3,1,3,1,1,40,4,5,16,2.5,16,3,14,2.5,10,2,2,2,,,,,,,,,,,,,,,1
+105,JD 3086,K 000934680,javensis,"West Java, Sukabumi, Ciayunan; 1000 m alt",1,1000,8,5,1,3,1,1,40,1,6,16,4,18,4.5,16.5,3,8,2,0,,,,,,,,,,,,,,,,1
+106,Backhuizen vd brink 6273,L3928356,javensis,"Java, Batavia, Tjimanglit, Buitenzorg; 550 m alt",1,550,8,5,1,3,1,0,30,0,5,16,3.5,14.5,4,14.5,4.5,7,3,0,2,2,,,,5.5,,,1,0,,,,,,1
+107,W. Ave 4,L3933429,javensis,"West Malaysia, Perak, Tapah, Sekam; 1000 m alt.",1,1000,,7,2,3,0,1,75,3,7,19,2.5,21,7,24,2.5,13,1.5,,,,,,,,,,,,,,,,,1
+108,W.Ave L 18,L3928255,javensis,Malaya,1,,8,5,3,3,1,0,59,2,9,21,3.5,22,3.5,20.5,3.5,10,3,2,1,2,,,,8.0,,,,,1.2,1,,,,1
+109,Junghun sn,L 3928353,javensis,Java,1,500,7,5,1,2,1,1,39,2,5,17.5,2.5,16.5,3.5,16,3,9.5,2.5,0,1,0,1,,7,6.5,1,0,,,,,,,,1
+110,Sapiin W 2374,L 3928355,javensis,"Java, Preanger, Cibodas",1,1300,8,3,1,1,1,0,42,3,5,19,3,16.5,3.5,15.5,3.5,8,2,0,1,2,,,,7.0,,,,,,,,,,1
+111,Mueller s.n.,L 3928287,javensis,"Borneo, Batang Sengaleng; inflor",1,50,8,5,3,0,1,0,33,,4,14,3,14.5,2.5,13,2.5,6,1.5,2,1,2,2,,,,,,,,,,,,,1
+112,Korthals s.n.,L3928346,javensis,"Borneo, Batang Sengaleng ; juvenile",1,50,6,4,1,2,2,1,44,10,6,18.5,2.5,18.5,2.5,20,2.5,10.5,2,,,,,,,,,,,,,,,,,1
+113,Heyne 7,L 3928115,javensis,Borneo; ♂,1,50,7,,2,3,1,1,42,2,,22.5,2.5,21,2.5,,,14,2,2,1,2,,,,,,,1,0,,,,,,1
+114,Furtado 30829,L 3928348,javensis,"Sumatera, Palembang; ♂",1,500,8,5,0,2,0,0,37,0,0,14.5,3.5,14.5,4.5,17,3.5,7,2,2,2.4,2,,,,3.0,,,1,0,,,,,,1
+115,Asin & Jarius SAN 121188,L 0618196,8: var. Polyphyllus,"Sabah, Ranau, Bambangan; Infruct.",2,600,7,5,1,3,2,0,31,0,10,14.5,2.5,14.5,2.5,16.5,2.5,12.5,2,2,4,2,1,,4,4.0,,,,,1,0,,,,1
+116,Dewol & Mansur SAN 107646,L 0618192 / K 000112874,8: var. Polyphyllus,"Sandakan, Pinangah Tongod, CCL Area; ♂",2,250,8,5,0,0,2,1,47,7,12,21,2,20,1.5,24,2.5,15,1,2,0,2,4,13.5,7,8.0,,,1,0,,,,,,1
+117,Fidilis Krispinus SAN 121886,L 0618195,8: var. Polyphyllus,"Sabah, Ulu Sungai Keramatoi, Keningau; infruct",2,350,6,,1,3,2,0,36,0,10,11,1,11.5,1.5,16,2.5,11,1.5,0,2,2,,,,,,,,,1,1,,,,1
+118,J&MS Clemens 27320,L 0618198,8: var. Polyphyllus,"Borneo, Kinabalu; 1000 m alt",2,1000,7,5,1,2,2,0,59,7,12,14,2,13.5,2.5,16,2.5,11,1.5,,2.4,0,,,7,7.5,1,0,,,10,2,,,1,1
+119,Dewol Sundaling SAN 97700,L 0618193,8: var polyphyllus,"Sandakan, Sg. Enodol Tongod, Kinabatangan; 700 m alt.; inflor.",2,700,10,5,1,2,2,0,69,2,12,13,2,13.5,2,15,2.5,10,1.5,2,4,2,,,,4.5,,,,,,,,,,1
+120,JD 5584,L 0618191,8: var polyphyllus,"Borneo, Sabah, Sandakan, Paling2 Hills, Lagud, Tenom; 300 m alt",2,300,10,6,1,3,1,1,40,0,9,15,3,14,2,15,2.5,10,2,2,2.4,0,0,,,6.5,,,,,1,1,,,,1
+121,Elmer 21331,L 0618190,javensis,"Sabah, Tawau ; Store undernamed C. acuminatus Becc.",1,200,6,4,1,1,0,2,35.5,0,4,20.5,3,20.5,3,17.5,3.5,11.5,3,,,,,,,,,,,,1,0,,,,1
+122,Ambri&Arifin W 915,L 0617975,javensis,"Kalimantan Timur, Wanariset Rintis Wartono Kadri area; 50 m",1,50,10,5,2,2,0,2,40,1,5,21,4.5,17,3.5,17,4.5,9,2.5,,,,,,,,,,,,,,,,,1
+123,JD 6265 C. elopurensis?,,2: C. elopurensis,"Sabah, Danum valley; alt 200 m",8,200,8,4,1,2,2,2,28,8.5,2,20,3.5,19,3.5,,,,,,,,,,,,,,,,0,0,,,,1
+124,JD 4637,L 0617914,7: var hypertrichosus,"Sarawak, Semongoh FR, Kuching; 25 m alt.",9,25,6,4,0,,1,2,40,0,7,17.5,3.5,16,4,12.5,2.5,7,2,,,,,,,,,,,,,,,,,1
+125,Blume BL 2137 / Syntype 1,,C. javensis,west java,1,900,15,5,2,1,0,1,45,0,5,21,5,17,5.5,18,5,8,2,,,,,,,,,,,,,,,,,1
+126,Blume syntype 2,,C. javensis,west java,1,900,5,3,1,1,2,1,44,4,6,19,3.5,18.5,3.5,16,3.5,8,2,2,2.4,0,,,,,,,,,,,,,,1
+127,isolectotype,,C. javensis,java,1,900,5,3,1,2,1,1,35,1,5,16,4,15,3,16,3.5,7,1,0,1,0,1,,5,6.0,,,1,1,,,,,,1
+128,holotype / lectotype?,,C. javensis,java,1,900,11,9,2,2,0,1,42,1,6,18,3.5,18,3.5,17,5,9.5,2,2,1,2,,,7,9.0,1,1,,,,,,,,1
+129,JD 5353,L 0617421,13: Calamus sp 1,"Sarawak, Gn Mulu NP, on ridgetop in lower montane forest; 1500 m",4,1500,20,10,3,0,2,0,123,70,9,20,2,17,3.5,22,3.5,22.5,2.5,2,1,1,,,,,,,,,,,,,,0
+130,Chew & Corner RSNB 1892,L 0617415,11: C. tenompokensis,"Mt Kinabalu, Pinosuk Plateau; 5500ft",10,1800,13,7,4,0,0,0,100,40,9,,,27,5.5,37,5.5,32,5.5,0,2,0,2,,,,1,1,,,,,,,,1
+131,"Chew & Corner, Stainton 1653",L 0617414 / K 000521391,11: C. tenompokensis,"Kinabalu, Ulu Langanani, Mamut river; 6°04'N, 116°40-44'E;  3800ft",10,1300,11,6,3,0,0,0,140,50,8,30,3.5,25,4.5,39,5,20,3,,1,0,,,,,0,0,,,,,,,,1
+132,Furtado SFN 33102,L 3928280,javensis,"Malaysia, Pahang, Bentong-Raub boundary",1,96,6,3,2,2,1,2,50,,7,,,13,2.5,15,4.5,,,0,1,2,,,,,,,,,,,,,,1
+133,Furtado SFN 30842,L3928281,javensis,"Java, Buitenzorg, cultivated",1,300,6,3,2,1,1,1,50,,6,18,2.5,15,2.5,15,2.5,16,2.5,0,,,,,,,,,,,,,,,,1
+134,JD & Manokaran JD 4485,L 3928284,javensis,"Malaysia, Perak , Ipoh, Kledang Saiong FR; 250 m",1,250,6,3,1,2,1,1,40,3.5,4,24.5,3.5,22.5,4,20,5,17.5,4.5,,,,,,,,,,,,,,,,,1
+135,Durand ? / herbarium javanicum PH Van Harreveld Sh no 900210/ L3928275,L 3928275,javensis,"Java Buitenzorg; ♀; 2 flower seen, 2 scar in infruct. vel 1, var firmus?",1,300,5,3,2,3,2,1,40,0,6,18,4.5,17.5,4,15,4.5,9,3,0,1,1,,,,,1,0,,,,1,,,,1
+136,BA Krukoff 4181,L 3928277,javensis,"Masihi Forest Reserves, Asahan East coast; var intermedius?",1,500,6,3,1,1,2,1,50,0,5,20.5,4.5,20,4,17.5,5,7,3,,,,,,,,,,,,,,,,,1
+137,Meijer SAN 20268,,javensis,"Sandakan, Ranau, Bukit Ampuan; 2500-3000 ft
+C. spectabilis?",1,1000,6,4,4,0,0,0,35,0,6,18,4,17,4,21,5.5,8,3,,,,,,,,,,,,,,,,,1
+138,Bernard Lee S 52573,L 0617419,11: C. tenompokensis,"Sarawak, Bkt Tebunan, Ulu Trusan. Lawas, 5th district; 800 m asl, inflor.",10,800,35,20,3,0,1,0,94,34,8,25,6,30,7,32,8,22,4,,2,2,2,22.5,19,13.0,,,0,1,,,,,,0
+139,JD 5707,L 0617416,11: C. tenompokensis,"Sabah, Ranau, Kinabalu, Liwagu trail; 1700 m",10,1700,35,15,4,0,1,0,108,30,9,31,6,28,5,30,5,26,5,,,,,,,,,,,,,,,,,1
+140,Madulid et al. 7172,L 3928434,14: Calamus sp 2,"Luzon, Pampanga, Mt. Arayat; 525 m alt.; Setae /long spinule on abaxial costae",11,525,9,6,2,0,0,2,55,29,6,,,12.5,2.5,14,2.5,10,2,,,,,,,,,,,,,,,,,1
+141,"JD, Madulid, Reynoso JD 6176",K 000707845,javensis,"The Philippines, Palawan, St. Paul's Bay NP",1,15,7,4,1,0,1,2,45,0,8,19,2.5,18,2.5,13,2,11,2,0,1,2,,,,5.5,1,1,,,,,,,,1
+142,Madulid F1008,L 3928436,javensis,"Palawan, St.Paul’s Bay NP. Lion cave; 15 m",1,15,6,4,1,4,2,2,30,2,7,19,2,20,3,18,2,10,1.5,,,,,,,,,,,,,,,,,1
+143,Chew & Corner RSNB 7025,K 000113411,12: var nov,"Sabah Kinabalu, mesilau river, alt. 5000 ft",5,1650,7,4,1,0,3,2,55,3.5,5,10,3,12,2.5,18,2,10,1.5,0,,2,4,11,12,8.5,,,1,1,,,,,,1
+144,Chew et al. 168,K 000113396,12: var nov,"Sabah, Kinabalu, eastern shoulder, 6°05' N, 116° 36-40' E; 6500 ft",5,2100,7,4,2,3,3,1,50,7,5,17.5,3,15.5,3,19.5,3,13,2,0,1,2,3,9.5,6,3.5,1,1,,,,,,,,1
+145,Diwol et al. SAN 144475,K 000209517,12: var nov,"Sabah, Sipitang, Ulu Meligan; 5900 ft",5,2000,10,5,2,0,3,2,49,17.5,4,15.5,2.5,15.5,2.5,16,3,14.5,2.5,2,1,2,4,20,9,6.0,,,1,1,,,,,,
+146,Kember Mejia 2019,K 000934692,12: var nov,"Indonesia, Sumatera, Payakumbuh, Mt. Sago; alt 1300 m",5,1300,15,5,2,3,3,1,39,0,6,17,3.5,16,3.5,16.5,4,8,2,2,1,2,5,18,10,8.0,,,1,1,,,,,,1
+147,Yildiz Aumeeruddy YA 308,K 000934680,12: var nov,"Indonesia, Central Sumatera, Kerinci; on slope, alt. 1500 m",5,1500,6,3,2,2,3,0,35.5,0,6,14,2,14,3,12.5,2.5,6.5,1.5,2,1,2,4,17,5,6.0,1,1,,,10,2,,,1,1
+148,Saw et al. SAN 146090,K 000462801,8: var polyphyllus,"Sabah, Ranau, Ulu Tungud FR, Gunung Monkobo Expedition, N 5°49'51'', E 117°00'07'';  alt. 472 m",2,472,8,5,2,2,2,1,20,1.5,8,21,1.5,20,2,24,2,14.5,1.5,0,1,0,,,,6.0,,,1,1,,,,,,1
+149,Maikin & Joseph SAN 125852,K 0001128689,8: var polyphyllus,"Sabah, TambunanTikolod, road side",2,750,8,5,0,,2,1,29,0,9,12,2,13,2,12.5,2,9.5,1.5,0,,2,4,10,8,5.0,,,0,1,,,,,,1
+150,Sumbing Jimpin SAN 139385,K000667401,8: var polyphyllus,"Sabah, Pensiangan, Pisgon, hillside",2,750,7,5,1,0,2,1,45,0,12,17.5,1,18.5,1.5,13.5,0.5,11.5,0.5,1,1,2,5,12,9,4.5,0,1,,,10,2,,,1,1
+151,Clemente 5982,K 000112880,8: var polyphyllus,"Sabah, Kg. Bandukan, side of ridge",2,750,7,5,0,,2,1,45,2.5,10,12,2.5,12,3,15,3,13,2.5,,2,3,2,11,9,4.5,1,1,,,,,,,,1
+152,Jacob Andersen & Rasit bin Abdilah 224,K 000114147 / L 0618008,2: C. elopurensis,"Sabah, Kinabatangan, Tabin wildlife reserve; 5° 20'N , 118° 40' E;  alt 40 m",8,40,8,5,1,3,2,2,48,35,3,35,5.5,33,6.5,23,5.5,,,,,,,,,,,,,,,,,,,1
+153,John Dransfield JD 5774,K 000113232,2: C. elopurensis,"Sabah, Sandakan, virgin jungle reserves, mile 42 Segaliud Lokan; alt 50 m",8,50,8,5,0,3,2,2,40,25,4,35,4.5,32,6,23,5.5,,,0,1,2,8,6,8,11.0,,,1,1,,,,,,1
+154,Sani Sambuling 130,K 000113230,2: C. elopurensis,"Sabah Ranau, kampung Poring, berhampiran mamut Copper Mine.",8,480,6,3,0,3,1,2,38.5,15,2,21.5,4.5,18.5,5,,,,,,,,,,,,,,,,,,,,,1
+155,Sani Sambuling 115,K000113258,4: C. impar,"Sabah, Kampung Poring",6,480,5,3,0,0,1,1,21.5,3.5,2,15.5,2.5,10.5,2.5,,,,,2,1,2,3,6.5,3,4.5,,,1,1,,,,,,1
+156,Lorence Lugas 1626,K000113270,4: C. impar,"Sabah, Kinabalu, kampung Melangkap Tomis",6,700,5,3,0,1,2,1,35.5,8.5,2,22.5,2,13.5,1.5,,,,,2,1,2,,,,,1,1,,,,,,,,1
+157,Lorence Lugas 14,K000707461,4: C. impar,"Sabah, Kinabalu",6,1000,4,3,0,0,2,1,35.5,12,2,20.5,2.5,18,2.5,,,,,0,1,2,,,,7.5,1,1,,,10,2,,,,1
+158,N.M. Watanabe NMW 41,K000209395,4: C. impar,"Indonesia, Kalimantan, Berau, inhutani 1; 2 22'N, 117 12' E; alt 30 m",6,30,5,3,1,2,1,1,12,4,2,22.5,4.5,16,4.5,13.5,3.5,,,,,,,,,,,,,,,,,,,1
+159,JD 5868,L 0618039,6: var corrugatus,"Sarawak, Mt. Mattang, alt. 400 m",12,400,6,3,0,5,0,1,39,0,7,12.5,2.5,13.5,2.5,13.5,2.5,7.5,1.5,,,,,,,,,,,,,,,,,1
+160,Mogea 3615,L 0618040,6: var corrugatus,"Indonesia, Central Kalimantan, Bukit Raya; 0°30'N, 112° 50'E ; 200 m alt.",12,200,5,3,0,5,2,2,27,9,3,13.5,2.5,12.5,3.5,,,14,3.5,,,,,,,,,,,,,,,,,1
+161,JD 6080,L 0618038,6: var corrugatus,"Sarawak, Serian, Sabal Tapang FR, mile 70, kerangas forest, gentle slope",12,650,5,3,0,5,0,1,30.5,0,5,12.5,1.5,16,2.5,11,2.5,6.5,1,,,,,,,,,,,,,,,,,1
+162,JD 4930,L 0618037,6: var corrugatus,"Sarawak, Semongoh FR near Kuching, 1st division; lowland MDF at alt. 20 m a.s.l",12,20,5,3,0,5,0,1,26,0,4,9.5,2.5,11.5,3,10,3,7.5,2,,,,,,,,,,,,,,,,,1
+163,JD 1428,K000113194,6: var corrugatus,"Sarawak, Lubuk Antu, river Delok, on slope in secondary forest near Nanga Sumpa; 01°20'N, 112° 10'E; alt 300 m",12,300,5,2,0,5,0,1,35,0,5,10,2,14,2,11.5,2.5,5,0.5,,,,,,,,,,,,,,,,,1
+164,P.S. Ashton 19775,K 000113196,6: var corrugatus,"Sarawak, Ulu Temalad, Hose Mountain",12,800,5,3,0,5,0,2,27,,10,6,1.5,6.5,1.5,8.5,2,4.5,1,0,1,2,3,3.5,4,4.5,0,1,,,8,1,,0,,1
+165,Dransfield et al. JD 5554,K 0001133850,11: C. tenompokensis,"Sabah, Ranau, Mt. Kinabalu, Pinosok plateau near Mesilau river; alt 1500 m; steepslope, lower montane forest",10,1500,20,8,3,0,0,2,100,20,8,28.5,4.5,27.5,4,33,4.5,30,4,0,,0,5,4.5,11,4.5,,,0,1,,,,,,1
+166,Chew & Corner RSNB 4056,K 000521385,11: C. tenompokensis,"Sabah, Mt. Kinabalu, Mesilau river; alt 5000 ft",10,1650,22,8,4,0,0,1,150,10.5,7,32,4,31,4,35,5,47,4.5,1,,1,4,12.9,6,5.5,,,0,1,,,,,,1
+167,JD 4713,L 0617983,3: C. flabellatus,"Borneo, Sarawak",7,100,9,5,0,2,1,1,25,,1,,,,,,,,,,,,,,,,,,,,,,,,,1
+168,Julaihi et al. 74348,K 000707407,3: C. flabellatus,"Borneo, Sarawak, ulu sungai nelinau, Miri, Gunung Mulu NP, Bukit Pantu, Marudi; alt 200 m",7,200,10,4,2,2,0,2,23.5,1,4,15.5,4.5,11,4,10.5,3.5,6,2,,2,2,5,,14,3.0,,,1,1,,,,,,1
+169,Dewol Sundaling 105576,K 000113077,5: var congestiflorus,"Borneo, Sabah, Sandakan, Tawau",3,20,6,4,2,3,1,1,22.5,0,5,12.5,2.5,13,3.5,13.5,2.5,5,1.5,2,3,2,2,3.5,10,2.5,1,1,,,,0,,,,1
+170,Yii Puan Ching S 44664,K 000521389,15: Calamus sp 3,"Borneo, Sarawak, Gunung Murud",13,2000,0,0,2,0,0,0,85,70,2,32.5,5.5,30.5,5.5,,,25.5,5.5,3,1,3,2,12,4,2.0,1,,,,13,2,,,,0
+171,Diwol & John et al. SAN 144483,K 000209515,15: Calamus sp 3,"Borneo, Sabah, Sipitang Ulu Meligan, road to Taman Samaki; alt 5900 ft; lower montane forest",13,2000,0,0,2,0,0,0,84,50,2,25,4,23.5,4,,,23,4,0,1,3,2,5,5,2.0,2,1,,,13,2,,,,0
+172,JD 6506,K 000784730,9: C. kemamanensis/ C. javensis,"Peninsular Malaysia, Kuala Trengganu, Ulu Nerus Forest Reserves; 350 m alt.; ocrea reddish; sterile",1,350,8,3,0,1,1,1,31.5,5.5,1,27,4.5,,,,,,,,,,,,,,,,,,,,,,,1
+173,Puasa 6712,K 000112883,1: C. amplijugus,"Sabah, Kabili Sepiklok FR, top of hill; 60 m a.s.l",14,60,20,8,3,0,1,0,70,0,8,20,6.5,22.5,8,24,8.5,,,2,2,2,2,38,9,20.0,1,1,,,,,,,,1
+174,Perumal & Diwol 134344,K 000667397,1: C. amplijugus,"North Borneo, lahad datu, Bukit Silam, alt. 950 ft",144,350,8,4,3,0,1,1,49,0,11,12,3.5,15,4,19.5,4.5,5.5,2,0,1,1,1,24,8,17.0,1,1,,,9,2,,,,1
+175,JD 6548,K 000112912,1: C. amplijugus,"North Borneo, Brunei, Belait district, Labi, Mendaram waterfall, 4°20'N, 114°27'E; 20 m a.s.l",14,20,10,5,2,0,0,1,50,0,9,18,3.5,15,3.5,16,4.5,9.5,2.5,2,2,2,,,8,7.0,1,1,,,9,0,,,,1
+176,WKM 792,K 000113602,11: C. tenompokensis,"Brunei, Temburong, north ridge of Bukit Retak.",10,1500,10,4,2,0,2,0,100,45,6,18,2.5,19.5,3,18,3,18,2,0,1,3,2,5,2,3.0,2,1,,,,0,,,,0
+177,Lorence Lugas 1600,K 000112925,1: C. amplijugus,"Sabah, Kampung Melangkap Tomis, 3 km from Melangkap Tomis, Dengiranuk",14,12,10,6,2,0,0,1,60,2,10,17,4.5,21,5.5,24,5.5,,,2,1,2,2,15,8,12.0,1,1,,,,,,,,1
+178,Dius Tadong 320,K 000112903,1: C. amplijugus,"Sabah, Kampung Takutan",14,570,20,6,3,0,0,0,50,0,9,15.5,5,15.5,4,17.5,6,6.5,3,2,1,,,,,15.0,1,1,,,7,1,,,,1
+179,atria MAT 018,,javensis,TNGHS,1,1200,6,4,2,3,1,1,42,2.5,6,19.5,3.5,18.5,3.5,13.5,3,7.5,2.5,0,1,2,5,10,7,5.0,,,1,1,,,,,,1
+180,atria MAT 023,,javensis,TNGHS,1,1200,5,3,1,0,2,0,68,37,5,18.5,3,17,3.5,21.5,3.5,12.5,2.5,,,,,,,,,,,,,,,,,1
+181,atria MAT 024,,javensis,TNGHS,1,1200,8,6,2,1,1,1,28.5,0,6,13,3,13.5,3,13.5,3,8.5,2.5,2,1,2,5,14,12,7.0,,,1,1,,,,,,1
+182,atria MAT 010,,javensis,TNGHS,1,1200,,,,,,,,,6,,,,,,,,,,,,,,,,,,,,,,,,,
+183,atria MAT 001,,javensis,TNGHS,1,1200,6,4,2,3,1,1,42,2.5,5,19.5,3.5,18.5,3.5,13.5,3,7.5,2.5,0,1,2,5,10,7,5.0,,,1,1,,,,,,1
+184,atria MAT 021,,javensis,TNGHS,1,1200,6,4,2,3,1,1,36,0,6,13.5,3.5,13.5,4,12.5,3,7,2.5,0,,2,4,10.5,10,5.5,,,1,1,,,,,,1
+185,atria MAT 002,,javensis,TNGHS,1,1200,5,3,1,1,1,1,37.5,2,6,18.5,2.5,16.5,3.5,13.5,3,9.5,2,,,,,,,,,,,,,,,,,1
+186,atria MAT 008,,javensis,TNGHS,1,1200,6,4,2,3,1,1,38.5,0,6,16,3,15.5,3.5,14.5,3.5,8.5,2,,,,,,,,,,,,,,,,,1
+187,atria MAT 004,,javensis,TNGHS,1,1200,5,3,1,1,1,1,68,29,5,18.5,3.5,17,4,13.5,3.5,9.5,2,,,,,,,,,,,,,,,,,1
+188,atria MAT 013,,javensis,TNGHS,1,1200,5,3,1,2,1,1,37,3,7,12,2.5,12.5,3,12.5,2.5,6,2,,,,,,,,,,,,,,,,,1
+189,atria MAT 022,,javensis,TNGHS,1,1200,6,3,0,1,1,1,42,2.5,5,18.5,2.5,16,3,13,3,5,1.5,,,,,,,,,,,,,,,,,1
+190,atria MAT 011,,javensis,TNGHS,1,1200,5,3,1,1,2,1,40,3,5,17.5,3.5,17.5,2.5,12.5,2.5,7.5,2,,,,,,,,,,,,,,,,,1
+191,Rajasegar & Adrian Loo 19,K 000667488,javensis,"Singapore, Nee Soon swamp forest",1,20,10,6,2,3,2,1,55,0,7,21,3.5,21,4,21,4,8,2,2,1,2,4,12,10,9.0,1,1,,,,,,,,1
+192,"Hj. Othman, Rantai & Jugah S 56410",K 000114271,javensis,"Sarawak,  Sg. Entejum, Ulu mengiong, Balleh, Kapit",1,43,8,5,2,3,1,1,33,2,6,12,3.5,11,2.5,11.5,3.5,8,2,2,1,2,5,,8,4.5,,,,,,,,,,1
+193,K.M. Wong WKM 745,K 000113402,javensis,"Brunei, Temburong, North ridge of Bukit Retak.",1,1500,5,3,1,2,1,2,30,0,6,8.5,2,8,1.5,8.5,2,8,1.5,2,1,2,4,16.5,11,4.5,,,1,1,,,,,,1
+194,Aban Sibot SAN 54826,K 000113412,javensis,"Sabah, Lahad Datu, Pulau Sakar",1,58,20,10,3,0,2,2,65,0,7,16,4.5,20.5,5,21,5,8,3,0,1,2,3,9,6,7.5,1,1,,,10,2,,,,1
+195,Kerr 7785,K 000785897,javensis,"Thailand, Kao Kalakari, Pattani",1,11,6,2,2,0,1,1,53,1.5,6,16.5,2.5,18,3.5,14.5,3.5,9,2,2,1,2,2,6,3,7.0,0,1,,,,,,,,1
+196,"Barford, Niyomdham, Ueachirakan, Bogh Pedersen, Burholt 45253",K 0007858900,javensis,"Thailand, Province Ranong, Laemson NP, Ban Hin substation",1,16,3,2,2,2,1,1,26,4,4,13.5,2.5,13.5,2.5,10.5,3,6.5,15,2,1,2,3,7,7,4.5,0,1,,,,,,,,1
+197,MJE Coode 7022,K 000113452,javensis,"Brunei, Tutong, Rambai,  Bukit Bahak riverside, alt 210 m",1,210,7,4,0,1,1,2,50,4.5,7,18.5,2.5,19,3.5,15.5,3,10,2,,,,,,5,5.5,,,1,1,,,,,,1
+198,Balajadia 3755,K 000113522,,"Sabah, dumpinit",1,50,10,5,2,1,1,1,55,0,8,17.5,4,17.5,4.5,22,4.5,8,2,,3,2,6,17.5,12,10.5,,,1,2,,,,,,1
+199,K.M. Wong WKM 1386,K 000113403,,"Brunei, Temburong, Bukit Belalong, south ridge",1,850,4,2,1,2,1,0,26.5,2.5,4,10.5,2,11.5,2.5,10.5,3,8,2,0,1,2,4,5,6,4.5,1,1,,,,,,,,1
+200,Vongkaluang 210,K 000785887,javensis,"Thailand, Trang",1,33,5,3,1,1,1,1,40,3.5,7,14.5,2.5,13,2,10,2,7,2,,2,2,5,13,8,7.0,,,1,1,,,,,,1
+201,Helen Sanderson Ridley s.n. 2,K 000113526,,"Sarawak, Mt. Matang",1,271,8,4,1,0,1,1,40,0,7,15,2.5,15,2.5,14.5,3,6,1.5,0,2,2,2,10,8,5.5,,,1,1,,,,,,1
+202,Mc Donald & Afriastini 3443,K 000934684,javensis,"Java, West java, Ujung Kulon, Cijaga watershed, Cijaga Besar Forest, 5 km SE Taman Jaya; 6°12'S, 105°30' N; alt 100 m",1,100,5,3,1,1,1,0,27.5,0.5,5,15,2.5,13.5,2.5,12.5,2.5,8,2,0,1,2,2,4,4,4.0,1,1,,,10,2,,,,1
+203,Jacob Andersen & Aninguh Surat 169,K 000114100,var congestiflorus?,"Sabah, Keningau, Ulu Senegang, Crocker range NP; N 5°20' , E 116°1'; alt 768 m",3,768,8,5,1,2,1,1,62,3,5,24.5,4.5,23.5,4.5,26.5,5,18.5,3.5,0,1,2,2,10,5,4.0,1,1,,,,,,,,1
+204,W. Ave 216,L 3928252,javensis,"Kp. Sekam, Tapah, Perak, West Malaysia (04°020’N, 101°020’E); 600 m alt",1,600,10,6,3,3,1,1,48,0,9,17.5,4,19.5,4,17,4,7.5,2.5,,,,,,,,,,,,,,,,,1
+205,Atria MAT 062,,C. flabellatus,"Andulau FR -- coordinate: N 04.39.299',  E 114.31.305' ;  alt. 80 m a.s.l",1,80,4,2,1,3,1,2,61.5,2,40,3.5,,,20,2.5,10.5,0.5,,,,,,,,,,,,,,,,,,1
+206,Atria MAT 065,,C. javensis,"Kuala Belalong, Ashton Trail",1,800,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+207,Atria MAT 85,,C. flabellatus,"Andulau FR -- N 04.39.424',             E 114.31.117' ;  alt. 77 m a.s.l",7,77,6,3,1,2,2,2,42,2.5,3,30,5,,,12.5,2.5,7.5,1,,,,,,,,,,,,,,,,,1
+208,Atria MAT 090,,C. flabellatus,"Sg Liang, Brunei",7,12,5,3,1,3,1,1,48,2.5,3,23,5.5,,,14.5,3.5,7.5,1.5,,,,,,,,,,,,,,,,,1
+209,Atria MAT 092,,C. javensis,"Ashton trail -- N 04 32.836', E 115 09.446'; alt. 130 m a.s.l",1,130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+210,Atria MAT 093,,C. javensis javensis,"Ashton trail -- N 04 32.836', E 115 09.446'; alt. 130 m a.s.l",1,130,6,4,1,2,1,1,51,0,8,18,3,16,4,15,4.5,9,3,,,,,,,,,,,,,,,,,1
+211,Atria MAT 094,,C. flabellatus,"Ashton trail -- N 04 32.836', E 115 09.446'; alt. 130 m a.s.l",7,130,6,4,1,3,2,1,60,2,3,39,5,,,22,4,15.5,2,,,,,,,,,,,,,,,,,1
+212,Atria MAT 095,,C. javensis,"Ashton trail -- N 04 32.836', E 115 09.446'; alt. 200 m a.s.l",1,200,8,4,1,3,2,1,68,2.5,10,9,3.5,18,4,19,4,14,2,,,,,,,,,,,,,,,,,1
+213,Atria MAT 096,,C. flabellatus,"Ashton trail -- N 04 32.695', E 115 09.370'; alt. 190 m a.s.l",7,190,10,5,0,0,1,1,56,0,5,32,6.5,18,4,11,2,9,2,1,1,2,3,13,8,2.5,1,1,,,6,1,,,,1
+214,Atria MAT 097,,C. javensis,Sg. Belalong riverside --,1,127,8,5,1,3,1,1,60,0,8,16.5,3.5,17,4,20,4,8.5,2,,,,,,,,,,,,,,,,,1
+215,Atria MAT 100B,,C. javensis,"Kuala Belalong, Ashton Trail",1,190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+216,Atria MAT 100C,,C. javensis,"Kuala Belalong, Ashton Trail",1,190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+217,Atria MAT 102,,C. flabellatus,"Kuala Belalong -- Canopy Trail -- cordinates: N 04 33. 151' , E 115 09.430' ; alt. 71 m a.s.l",7,71,8,5,1,2,1,1,56,1,4,33.5,7.5,,,23,4.5,16,3,,,,,,,,,,,,,,,,,1
+218,Atria MAT 103A,,var. Polyphyllus (2 sheet),"clustering rattan. Seedling plant erect with up to 12 pairs of leaflets, mature plants climbing with 6 pairs.",2,100,10,7,1,2,0,0,95,27,10,20,3,17,3.5,18,3.5,15.5,2.5,,,,,,,,,,,,,,,,,1
+219,Atria MAT 106,,C. flabellatus,"Kuala Belalong -- Canopy trail -- N 04 33. 108' , E 115 09.609'; infructescence; sterile",7,71,8,4,1,2,1,1,41,1.5,2,27,6.5,,,,,,12.5,3,,,,,,,,,,,,,,,,1
+220,Atria MAT 107A,,C. flabellatus,"Teraja -- N 04 24.035' , E 114 20.412' ,♀ plant, 7 partial inflorescence, each with 8 rachilla",7,50,10,5,1,2,1,2,23,2,4,13.5,4.5,,,9,3.5,7.5,7.5,2,1,2,5,40,16,3.0,1,1,,,,,,,,1
+221,Atria MAT 108,,C. javensis,"Mendaram -- N 04 20.495' , E 114 26. 847'; alt. 21 m a.s.l.",1,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+222,Atria MAT 108B,,C. javensis,"Mendaram -- N 04 20.495' , E 114 26. 847'; alt. 21 m a.s.l.; infructescence",1,21,10,6,2,2,1,1,10,0,8,4,2,3.5,0.8,4.5,1.5,2,1.5,0,4,2,5,,,3.0,1,1,,,,,,,,1
+223,Atria MAT 108C,,C. javensis,"Mendaram -- N 04 20.495' , E 114 26. 847'; alt. 21 m a.s.l.",1,21,8,5,1,3,2,2,58,0,9,18,4,16,4,17,4.5,8,1.5,1,4,2,7,14,7,6.5,1,1,,,10,0,8,6,1,1
+224,Atria MAT 109,,C. amplijugus? (2 sheet),"Teraja -- N 04 17.254' , E 114 25.808' , male plant, 8 partial inflorescence, inflorescence ca 2,5 m long.",14,50,10,7,2,1,2,1,55,0,8,20,4.5,21,4.5,20,4.5,7.5,2.5,2,1,2,6,11,8,8.0,1,1,,,10,0,70,40,1,1
+225,Atria MAT 109C,,C. amplijugus?,"Teraja -- N 04 17.254' , E 114 25.808' , male plant, 8 partial inflorescence, inflorescence ca 2,5 m long.",14,50,10,6,2,3,2,1,58,0,10,16,3.5,15.5,4.5,15,4.5,16.5,2.5,0,2,2,10,16,13,5.0,,,1,1,,,,,,1
+226,Atria MAT 110,,C. javensis,"Mendaram -- N 04 19.113', E 114 25.808'; alt. 34 m a.s.l",1,34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
