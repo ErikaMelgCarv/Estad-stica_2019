@@ -1,0 +1,129 @@
+SEMANA 7 - PRÁCTICA 6
+ERIKA JULIANA MELGAREJO CARVAJAL
+
+
+#TEOREMA LÍMITE CENTRAL
+
+# Ejercicio 1: Tome cualquiera de las dos poblaciones y cambie los valores de tamaño y número de muestras hasta que obtenga un histograma similar a una distribución normal.
+
+# ¿Cuán grande es la muestra?
+
+tamaño.m <-5000
+
+# Cuántas muestras x población?
+
+Nm <-5
+
+# P2, para una muestra con un tamaño de 5000
+? rexp # Distribución exponencial con números aleatorios
+
+# P2 
+P2 <- rexp (tamaño.m)
+P2
+media (P2)
+hist (P2)
+
+
+# Sin embargo, se requiere la realización de varias muestras del mismo tamaño.
+
+# se procederá a ralizar una matriz donde se ubicarán las muestras de P2
+
+Matr.P2 <-matriz (NA, Nm, ncol = tamaño.m)
+Matr.P2
+
+para (i en 1: Nm) {
+  muestra <- runif (tamaño.m)
+  Matr.P2 [i,] = muestra
+}
+
+Matr.P2
+
+# Cálculo de los medios para la matriz
+
+mediaMatr.p2 <- aplicar (Matr.P2,2, media)
+mediaMatr.p2
+
+#Adicionando a la tabla
+
+Matr.P2conMedia <- cbind (Matr.P2, mediaMatr.p2)
+Matr.P2conMedia
+
+#de manera muestral podemos mostrar el histograma de las muestras generadas
+
+par (mfrow = c (2,2))
+hist (Matr.P2 [1,], main = 'muestra 1')
+
+hist (Matr.P2 [2,], main = 'muestra 2')
+hist (Matr.P2 [3,], main = 'muestra 3')
+hist (Matr.P2conMedia [, tamaño.m + 1], main = 'medias')
+
+#Para la muestra 2, con un tamaño de 5000 y un total de # de muestras = 5 obtenemos una distribución normal. 
+
+#Con ello obtenemos una dirtribución simetrica, donde los valores de medios y madiana son similares. 
+
+# Ejercicio 2: Simule una población con distribución normal de media 15 y sd 1. ¿Cúal es el tamaño y número de muestral, donde obtenemos una distribución similar a la normal? Pruebe con Nmuestras 30 y tamaño 5 o 3, también podría reducir la SD. Haga lo mismo con una distribución lognormal.
+
+tamaño.pob <-5
+Nm2 <-rnorm (30, media = 15, sd = 0.5)
+
+#generamos una matriz 
+
+Matr.Pob <-matriz (NA, Nm2, ncol = tamaño.pob)
+Matr.Pob
+
+para (i en 1: Nm2) {
+  muestra2 <- runif (tamaño.pob)
+  Matr.Pob [i,] = muestra2
+}
+
+Matr.Pob
+
+#Para la observación de distribución 
+
+par (mfrow = c (2,2))
+diagrama de caja (Matr.Pob [1,], main = 'muestra 1')
+
+diagrama de caja (Matr.Pob [2,], main = 'muestra 2')
+diagrama de caja (Matr.Pob [3,], main = 'muestra 3')
+
+#Probando con nmuestras = 30, y disminuyendo el tamaño a 5, no se observa una distribución normal para ninguno de los tipos de muestra, esto confirma el hecho de que entre menos número de muestras se posea, menos será la simetría en la distribución y por ende, no podrá ser normal. 
+
+#Con un número muestral mayor, podemos obtener una distribución normal, casi simétrica con valores de medios de 14.97 y de mediana de 14.96, y con una desviación estándar relativamente baja.
+
+tamaño.pob2 <-3
+Nm3 <-rlnorm (30, meanlog = 15, sdlog = 0.5)
+
+Matr.Pob3 <-matriz (NA, Nm3, ncol = tamaño.pob2)
+Matr.Pob3
+
+para (i en 1: Nm3) {
+  muestra3 <- runif (tamaño.pob2)
+  Matr.Pob3 [i,] = muestra3
+}
+
+par (mfrow = c (2,2))
+diagrama de caja (Matr.Pob3 [1,], main = 'muestra 1')
+diagrama de caja (Matr.Pob3 [2,], main = 'muestra 2')
+diagrama de caja (Matr.Pob3 [3,], main = 'muestra 3')
+
+# Sin embargo, al considerar los mismos datos, a diferencia del tamaño = 3, con sesgos hacia la izquierda y la derecha, esto necesariamente por ser una función exponencial. 
+
+# Ejercicio 3: Aumente la SD = 10 y disminuyó el número de individuos de la población, ejemplo 1000.
+
+ejercicio <-abs (rnorm (1000, mean = 10, sd = 10))  
+cabeza (ejercicio)  
+
+Medpb1 <-mean (ejercicio)
+Medpb1
+
+Muestras <- c (1,5,10,20,150,250,350, 450,550,850,930)
+Medios <- NULL
+para (i en 1: longitud (Muestras)) {
+  muestra <-muestra (ejercicio, Muestras [i], replace = F)
+  Media <-c (Media, media (muestra))
+}
+
+plot (cbind (Muestras, Media), type = "l")
+abline (h = Medpb1, col = "rojo")
+
+#CONCLUSIÓN: Es necesario realizar, aproximadamente, 11 muestreos para que los medios se acerquen a los medios poblacionales.
