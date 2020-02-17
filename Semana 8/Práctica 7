@@ -1,0 +1,76 @@
+SEMANA 8 - PRÁCTICA 7
+ERIKA JULIANA MELGAREJO CARVAJAL
+
+#Se hace la comparación de todos los resultados con los ejercicios vistos en la respectiva clase
+
+# Ejercicio 1: Aumente el valor de desviación estándar y evalúe cómo cambia el error estándar.
+
+Pob <- techo (rnorm (5000, media = 35, sd = 4))
+
+m1 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+m2 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+m3 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+
+sd (c (m1, m2, m3)) / sqrt (longitud (c (m1, m2, m3)))
+
+# Rta / al aumentar el valor de la sd, el error estándar aumenta, estos dos valores son directamente proporcionales, ya que el error estándar es la
+# desviación estándar de todas las posibles muestras de la población.
+
+# Ejer2: Aumente el tamaño de la muestra y evalúe cómo cambia el error estándar.
+
+Pob <- techo (rnorm (5000, media = 35, sd = 4))
+m1 <-muestra (x = Pob, tamaño = 70, reemplazar = T)
+m2 <-muestra (x = Pob, tamaño = 70, reemplazar = T)
+m3 <-muestra (x = Pob, tamaño = 70, reemplazar = T)
+
+
+sd (c (m1, m2, m3)) / sqrt (longitud (c (m1, m2, m3)))
+
+
+# Conclusión: se observa que al aumentar el tamaño de la muestra, la desviación estándar casi en un 30% con respecto a la previa desviación estándar
+#con un tamaño de la muestra menor. Esto demuestra que entre más muestras se realicen el error estándar será menor, pues se dispone de más datos.
+
+
+
+#Cambie el tamaño de muestra y evaluar el valor de error estándar. 
+# ¿Cuánto debería aumentar la muestra para que el error estándar disminuya a la mitad?
+
+set.seed (800)
+
+Pob <- techo (rnorm (5000, media = 35, sd = 1))
+
+
+#Muestras en lugares difernetes
+
+m1 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+m2 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+m3 <-muestra (x = Pob, tamaño = 40, reemplazar = T)
+
+#se realiza el cálculo de la ciudad de tendecia de cada una de las tomas por lugar
+
+# m1
+
+media (m1)
+sd (m1)
+
+# "m2"
+
+media (m2)
+sd (m2)
+
+
+# m3
+
+media (m3)
+sd (m3)
+
+# Observación en cajas
+
+diagrama de caja (cbind (m1, m2, m3))
+
+
+#Para observar el error estándar
+
+sd (c (m1, m2, m3)) / sqrt (longitud (c (m1, m2, m3)))
+
+# Conclusión: La muestra debería aumentar al menos 4 veces, para que el error disminuya a la mitad.
