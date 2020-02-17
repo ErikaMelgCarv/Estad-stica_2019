@@ -1,0 +1,215 @@
+# PRÁCTICA 2, SEMANA 3 - VARIABLES Y FRECUENCIAS
+
+
+#CARGAR PAQUETES NECESARIOS PARA REALIZAR LOS EJERCICIOS
+biblioteca (vegana)
+biblioteca (geiger)
+biblioteca (ade4)
+    #Paquete vegano
+  datos (BCI)
+  datos (mite.env)
+
+    #Paquete geiger
+  datos (geospiza)
+
+    #Paquete ade4
+  datos (torturas)
+  datos (corvus)
+  datos (atlas)
+  
+#EJERCICIO 1: ¿Qué clase de objeto es BIC? ¿Qué clase de objeto es geospiza?
+#use la función str para obtener información sobre la estructura.
+ 
+  # PARA BIC
+clase (BIC)
+str (BIC)
+
+  #PARA GEOSPIZA 
+clase (geospiza)
+str (geospiza)
+
+#EJERCICIO 2: ¿Qué tipo de variable es tarsusL y qué clase? 
+
+geospiza $ geospiza.data
+typeof (geospiza $ geospiza.data [, 2])
+clase (geospiza $ geospiza.data [, 2])
+
+#Abra el objeto tortues y mire ¿Qué tipo de variables tiene y qué clase son? 
+
+torturas
+typeof (torturas)
+clase (torturas)
+
+#Haga lo mismo con el objeto mite.env y revise ¿Qué tipo de variable es shurb 
+#y qué clase es? 
+
+mite.env
+typeof (mite.env $ Shrub)
+clase (mite.env $ Shrub)
+
+#EJERCICIO 3: Usando el data.frame tortues calcula la proporción de hembras y machos de la muestra.
+
+  #Asignaciones en vectores
+Hembras <- longitud (que (tortues == 'F'))
+Machos <- length (which (tortues == 'M'))
+
+ #Hallar razón:
+pegar (Hembras, '/', Machos, sep = '')
+Hembras / Machos
+
+#EJERCICIO 4: usando el data.frame tortues calcule la cantidad entre el ancho y el largo 
+#del caparazón, genere una tabla con la información de torturas y la nueva derivada variable.
+
+  #Asignaciones
+Ancho <- tortues $ long
+Largo <- tortues $ larg
+
+  # Proporción
+prp <- Ancho / Largo
+prp
+
+  #Tabla
+Tabla_datos <- cbind (tortues, prp)
+Tabla_datos
+
+#EJERCICIO 5: ¿Cuántas especies de Corvus fueron muestreadas en la región Paleártica-Africana? 
+#Utilice el data.frame del género Corvus. ¿Qué porcentaje de Corvus muestreados habitan zonas abiertas?
+
+Sp_Paleoafric <- tabla (corvus $ phylog)
+Sp_Paleoafric
+    ## RTA: Nueve especies.
+
+  #Porcentaje de corvus muestreados en zonas abiertas
+
+TablaHábitad <- tabla (corvus $ habitat)
+Frecuencia <- prop.table (TablaHábitad) * 100
+Frecuencia
+    ## RTA: El 60,7% fueron muestreados en lugares abiertos.
+
+#EJERCICIO 6: ¿Cómo luce el gráfico de frecuencias para los tipos de hábitat del género Corvus?
+
+plot (Frecuencia, main = "GRÁF. FRECUENCIAS", xlab = "Tipo Hábitat", ylab = "Frecuencia (%)", col = "dodgerblue3")
+
+#EJERCICIO 7: aproximadamente el máximo, así como lo hizo para el mínimo
+
+max (aplicar (atlas $ birds, 2, sum))
+
+#EJERCICIO 8: Repita el ejercicio para las variables continuas de tamaño de pico y tamaño del ala en el género Corvus. 
+#Busque cómo cambiar colores, ejes y algunas propiedades que le pueden mejorar el diseño del histograma.
+
+#Preparar datos, PARA TAMAÑO DE PICO
+Datos1 <- corvus $ bill
+Tabla1 <- tabla (corvus $ bill)
+
+  min (Datos1)
+  max (Datos1)
+  rango (Datos1)
+  
+#Generar cajas
+  Cajas <- seq (44.5, 94.5, 10)
+
+# Agrupar
+Agrupación <- corte (corvus $ bill, Cajas)
+
+#Generar Tabla de frecuencias
+TFrecuencias <- mesa (Agrupación)
+#Transformar
+transformar (TFrecuencias)
+  #Histograma para tamaño de pico
+hist (corvus $ bill, breaks = Cajas, main = "GRÁFICA PICOS", xlab = "Tamaño", ylab = "Frecuencia", col = "gold")
+
+
+#REPETIR PARA TAMAÑO DE ALA
+Datos2 <- corvus $ wing
+Tabla2 <- tabla (corvus $ wing)
+
+  min (Datos2)
+  max (Datos2)
+  rango (Datos2)
+
+Cajas2 <- seq (225.5, 485.5, 10)
+Agrupación2 <- corte (corvus $ wing, Cajas2)
+TFrecuencias2 <- tabla (Agrupación2)
+transformar (TFrecuencias2)
+
+  #Histograma para tamaño de ala
+hist (corvus $ wing, breaks = Cajas2, main = "GRÁFICA ALAS", xlab = "Tamaño", ylab = "Frecuencia", col = "greenyellow")
+
+#EJERCICIO 9: Ejercicio 9: Invente unos datos de medidas, como se hizo en el caso de los cráneos, y genere todo el 
+#ejercicio hasta el histograma. Busque otro tipo de distribuciones para generar las variables
+
+  # Determinar (con distrubicón de Poisson), la probabilidad de que las especies de abejas lleguen a polinizar una especie de planta 
+  # a lo largo de un día.
+
+Cant_abejas <- rpois (20, lambda = 5)
+Cant_abejas
+
+Horas <- rpois (20, lambda = 8)
+Horas
+
+Unir <- cbind (Cant_abejas, Horas)
+Unir
+
+Tabla <- as.data.frame (cbind (paste ('spp', 1: 20, sep = ''), Unir))
+Tabla
+
+  #Calculamos las proporciones
+prp <- Cant_abejas / Horas
+prp
+
+  # Añadimos esto a la tabla
+Tabla2 <- cbind.data.frame (Tabla, prp)
+Tabla2
+
+  #Organizamos datos
+Tabla <- tabla (Cant_abejas)
+
+min (Cant_abejas)
+max (Cant_abejas)
+rango (Cant_abejas)
+
+  #Generamos cajas
+Cajas3 <- seq (0, 9, 2)
+
+  # Agrupar 
+Agrupación3 <- corte (Cant_abejas, cajas3)
+
+  #Generar tabla de frecuencias
+TFrecuencias3 <- tabla (Agrupación3)
+
+  #Transformar
+transformar (TFrecuencias3)
+transform (TFrecuencias3, relativ = prop.table (Freq), Acum = cumsum (Freq))
+
+  #Histograma 
+hist (Cant_abejas, breaks = Cajas3, main = "POLINIZACIONES", xlab = "Cantidad de abejas", ylab = "Probabilidad", col = "slategray4")
+
+
+#EJERCICIO 10: Busque los tipos de distribución y para qué sirven.
+
+  # Distribución geométrica (p)
+La distribución geométrica se utiliza en la distribución de tiempos de espera, de manera que
+si los ensayos se realizan a intervalos regulares de tiempo, esta variable aleatoria
+proporciona el tiempo transcurrido hasta el primer éxito.
+
+  # Distribución de Poisson
+Se utiliza para obtener la probabilidad de que ocurra un número de sucesos en un tiempo o 
+espacio determinado. Esta definido por la variable lamda, que es el número de sucesos medio
+que ocurrió en un espacio determinado o tiempo. Los sucesos deben expresarse en la unidad de
+tiempo o área. 
+
+  # Distribución Binomial (n, p)
+Una sucesión de pruebas se dice que es de Bernoulli cuando los experimentos verifican las siguientes condiciones:
+  1. Las n pruebas son independientes.
+  2. Cada prueba es de Bernoulli.
+  3. La probabilidad de éxito es igual en todas las pruebas.
+
+  # Distribución de Bernoulli
+Un experimento aleatorio se dice que es de Bernoulli cuando puede tener tener
+dos resultados mutuamente excluyentes; uno de ellos se denomina "éxito" y el otro "éxito".
+
+  # Distribución normal
+Es la más importante de las distribuciones continuas ya que permite describir un número
+muy grande de fenomenos aleatorios, como por ejemplo aquellos en los que intervienen un
+número elevado de factores no controlables, que actúan de manera independiente y con efectos
+pequeños
