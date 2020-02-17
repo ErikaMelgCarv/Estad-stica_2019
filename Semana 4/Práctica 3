@@ -1,0 +1,316 @@
+#Semana 3. DESCRCIPTORES Y MEDIDAS
+#MEDIDAS DE TENDENCIA CENTRAL
+
+#Media o promedio
+
+#Cargar datos necesarios para el cáculo
+data("iris")
+iris
+
+#promedio de longitud de pétalo de setosa
+
+#sumatoria de los datos
+pl.Setosa <- sum(iris$Petal.Length[which(iris$Species=='setosa')])
+pl.Setosa
+
+#cáculo de n
+length(iris$Petal.Length[which(iris$Species=='setosa')])
+n <- length(iris$Petal.Length[which(iris$Species=='setosa')])
+n
+
+#promedio 
+promedio <- pl.Setosa/n
+promedio
+
+#Graficar
+hist(iris$Petal.Length[which(iris$Species=='setosa')])
+
+#Ejer. Si la columna iris$Petal.Length tuviera valores 'NA', ¿Cómo podría eliminarlos antes de hacer la estimación de la media?
+Con la función na.omit()
+
+#Estime la media aritmética de la altura, la longitud y el ancho del caparazón de las tortugas pintadas [data(tortues), paquete: ade4].
+
+library(ade4)
+data("tortues")
+tortues
+media <- c(mean(tortues$long), mean(tortues$larg), mean(tortues$haut))
+media
+
+
+#Mediana
+#Ejer: Genere una función propia que le permita encontrar la mediana, tal y como lo hizo con la media aritmética.
+
+#Datos en variable
+setosa <- iris$Petal.Length[which(iris$Species == "setosa")]
+setosa
+#ordenar
+setosa_ordenado <- sort(setosa)
+setosa_ordenado
+
+#Función
+
+m <- length(setosa)
+#Función
+mi.mediana <- function(x) sum(setosa_ordenado[m/2], setosa_ordenado[(m/2)+1])/2
+mi.mediana(setosa)
+
+#Modo
+
+#Ejer: Genere una función propia que le permita calcular la moda
+
+mi.moda <- function (n){
+  x <- table (n)
+  moda <- x [which.max(x)]
+  return(mode) 
+}
+
+#Ejer: Después de generar la función del cálculo de moda, grafíquela sobre el histograma.
+
+data("iris")
+iris
+length(iris$Petal.Length[which(iris$Species=='setosa')])
+setosa <- iris$Petal.Length[which(iris$Species=='setosa')]
+
+hist(setosa, # histogram
+     col = "peachpuff", # column color
+     border = "black", 
+     prob = TRUE, # show densities instead of frequencies
+     xlim = c(0.5,2.5),
+     xlab = "Longitud de pétalo",
+     main = "Frecuencias de longitud de pétalo de setosa")
+lines(density(setosa),
+      lwd = 2, # thickness of line
+      col = "chocolate3") # Generar la distribución continua distribución de masa a partir de los datos observados
+
+# Graficar la media
+abline(v = mean(setosa),
+       col = "royalblue",
+       lwd = 2)
+
+abline(v = median(setosa),
+       col = "red",
+       lwd = 2)
+
+#Graficar la moda
+abline(v = mi.moda(setosa),
+       col="green",
+       lwd=2)
+
+legend(x = "topright", # location of legend within plot area
+       c("Density plot", "Mean", "Median", "Moda"),
+       col = c("chocolate3", "royalblue", "red","green"),
+       lwd = c(2, 2, 2, 2))
+
+#**Ejer:** Genere los cuantiles en intervalos de 0.5
+
+quantile(setosa,probs = c(seq(0, 1, 0.5)))
+
+#**Ejer:** ¿Qué sucede si el número de columnas deseado no se especifica? 
+
+#Al probar que sucede si no se coloca el número de columnas , encontramos lo siguiente 
+aggregate(iris, list(Especies = iris$Species), mean)
+# Dando como resultado  NA debido a que el argumento que contiene no es ni numerico ni logico,
+#por lo cual es importante colocar el numero de columnas para que se puede extraer
+
+##Obtenga la mediana, la moda y los cuantiles para cada especie de iris y para cada variable morfométrica.
+
+#VIRGINICA
+
+#Mediana de Virginica con cada variable morfométrica
+VirginicaPL <- iris$Petal.Length[which(iris$Species=='virginica')]
+median(VirginicaPL)
+VirginicaPW <- iris$Petal.Width[which(iris$Species=="virginica")]
+median(VirginicaPW)
+VirginicaSL <-iris$Sepal.Length[which(iris$Species=="virginica")]
+median(VirginicaSL)
+VirginicaSW <-iris$Sepal.Width[which(iris$Species=="virginica")]  
+median(VirginicaSW)
+
+#Moda de Virginica con cada varibale morfométrica
+mi.moda(VirginicaPL)
+mi.moda(VirginicaPW)
+mi.moda(VirginicaSL)
+mi.moda(VirginicaSW)
+
+#Cuantiles de Virginica con cada variable morfométrica
+quantile(VirginicaPL)
+quantile(VirginicaPW)
+quantile(VirginicaSL)
+quantile(VirginicaSW)
+
+#VERSICOLOR 
+VersicolorPL <- iris$Petal.Length[which(iris$Species=='versicolor')]
+VersicolorPW <- iris$Petal.Width[which(iris$Species=="versicolor")]
+VersicolorSL <-iris$Sepal.Length[which(iris$Species=="versicolor")]
+VersicolorSW <-iris$Sepal.Width[which(iris$Species=="versicolor")]  
+
+#Mediana de Versicolor 
+mi.mediana(VersicolorPL)
+mi.mediana(VersicolorPW)
+mi.mediana(VersicolorSL)
+mi.mediana(VersicolorSW)
+
+#Moda de versicolor
+mi.moda(VersicolorPL)
+mi.moda(VersicolorPW)
+mi.moda(VersicolorSL)
+mi.moda(VersicolorSW)
+
+#Cuantil de versicolor 
+quantile(VersicolorPL)
+quantile(VersicolorPW)
+quantile(VersicolorSL)
+quantile(VersicolorSW)
+
+#SETOSA
+SetosaPL <- iris$Petal.Length[which(iris$Species=='setosa')]
+SetosaPW <- iris$Petal.Width[which(iris$Species=="setosa")]
+SetosaSL <-iris$Sepal.Length[which(iris$Species=="setosa")]
+SetosaSW <-iris$Sepal.Width[which(iris$Species=="setosa")]  
+
+#Mediana de setosa
+mi.mediana(SetosaPL)
+mi.mediana(SetosaPW)
+mi.mediana(SetosaSL)
+mi.mediana(SetosaSW)
+
+#Moda de setosa
+mi.moda(SetosaPL)
+mi.moda(SetosaPW)
+mi.moda(SetosaSL)
+mi.moda(SetosaSW)
+
+#Quantil de setosa
+quantile(SetosaPL)
+quantile(SetosaPW)
+quantile(SetosaSL)
+quantile(SetosaSW)
+
+#Todo lo anterior realizado se puede resumir usando la funcion aggregate 
+
+#MEDIANA
+aggregate(iris [,1:4], list(Especies = iris$Species), median)
+#MODA
+aggregate(iris [,1:4], list(Especies = iris$Species), mi.moda)
+#CUANTILES
+aggregate(iris [,1:4], list(Especies = iris$Species), quantile)
+
+
+#**Ejer:** grafique la distribuciÃ³n de frecuencias de cada poblaciÃ³n
+#usando histograma y densidad en el mismo grÃ¡fico. Adiciones la media,
+#la mediana y la moda.
+
+# voy a campo y mido dos poblaciones de pájaros
+pop1 <-abs(rnorm(500,mean = 120,sd = 25))
+pop1
+range(pop1)
+
+min(pop1)
+max(pop1)
+
+pop2 <-abs(rnorm(500,mean = 200,sd = 25))
+range(pop2)
+
+pops<-cbind(pop1,pop2)
+pops
+
+
+  # distribución de frecuencias de pop1
+hist(pop1, # histogram
+     col = "peachpuff", # column color
+     border = "black",
+     
+     xlim = c(min(pop1),max(pop1)),
+     xlab = "Longitud de las colas ",
+     
+     main = "Longitud de las colas de la pop1")
+lines(density(pop1),
+      lwd = 1, # thickness of line
+      col = "chocolate3") # Generar la distribución continua distribución de masa a partir de los datos observados
+
+# Graficar la media
+abline(v = mean(pop1),
+       col = "royalblue",
+       lwd = 1)
+
+abline(v = median(pop1),
+       col = "red",
+       lwd = 1)
+abline(v= mi.moda(pop1),
+       col="skyblue2",
+       lwd= 1)
+
+legend(x = "topright", # location of legend within plot area
+       c("Density plot", "Mean", "Median", "Moda"),
+       col = c("chocolate3", "royalblue", "red", "skyblue2"),
+       lwd = c(2, 2, 2,2))
+
+····
+
+# distribución de frecuencias de pop2
+hist(pop2, # histogram
+     col = "lightcoral", # column color
+     border = "black",
+     xlim = c(120,270),
+     xlab = "Longitud de las colas",
+     main = "Longitud de las colas de la pop2")
+lines(density(pop2),
+      lwd = 2, # thickness of line
+      col = "yellow") # Generar la distribución continua distribución de masa a partir de los datos observados
+
+# Graficar la media
+abline(v = mean(pop2),
+       col = "mediumspringgreen",
+       lwd = 2)
+
+abline(v = median(pop2),
+       col = "orangered",
+       lwd = 2)
+abline(v= mi.moda(pop2), 
+       col="blueviolet",
+       lwd= 2)
+
+legend(x = "topright", # location of legend within plot area
+       c("Density plot", "Mean", "Median", "Moda"),
+       col = c("yellow", "mediumspringgreen", "orangered", "blueviolet"),
+       lwd = c(2, 2, 2))
+
+
+# Rango = x
+range(Tubercles1b)
+
+# Freq = y
+min(freq)
+max(freq)
+
+# distribución de frecuencias de Tublercles1b 
+hist(Tubercles1b, # histogram
+     col = "lightcyan", # column color
+     border = "black", 
+     prob = TRUE, # show densities instead of frequencies
+     xlim = c(6,16.5),
+     xlab = "Tuberclues",
+     main = "Tuberclues 1b")
+lines(density(Tubercles1b),
+      lwd = 2, # thickness of line
+      col = "chocolate3") # Generar la distribución continua distribución de masa a partir de los datos observados
+
+# Graficar la media
+abline(v = mean(Tubercles1b),
+       col = "royalblue",
+       lwd = 2)
+
+abline(v = median(Tubercles1b),
+       col = "red",
+       lwd = 2)
+abline(v= 10.78 , 
+       col="deeppink4",
+       lwd=2)
+
+legend(x = "topright", # location of legend within plot area
+       c("Density plot", "Mean", "Median","Moda"),
+       col = c("chocolate3", "royalblue", "red", "deeppink4"),
+       lwd = c(2, 2, 2,2))
+
+
+#Ejercicio  en base al artículo de Magud 2007, fue enviado al correo de la docente con anterioridad, e igualmente el desarrollo se sube como archivo PDF.
