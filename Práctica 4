@@ -1,0 +1,200 @@
+SEMANA 5 - PRÁCTICA 4.
+ERIKA JULIANA MELGAREJO CARVAJAL
+
+#Ejercicio 1: ¿Cuál es la probabilidad de que sean 3 de fenotipo blanco?
+
+# se sabe que la probabilidad de ser fenotipo blanco es de 0.25 
+
+dbinom (3, tamaño = 8, prob = 0.25)
+[1] 0.2076416
+# Rta / La probabilidad de que sea de fenotipo blanco es de 21% 
+
+#Ejercicio 2: ¿Cuál es la probabilidad de encontrar 6 semillas por bloque?
+
+dpois (x = 6, lambda = 10)
+[1] 0.06305546
+
+#La probabilidad de enocontrar 6 semillas es de 6.3% 
+# Grafique todos los eventos de 0 a 50
+plot (dpois (x = 0: 50, lambda = 10))
+
+
+#Ejericio 3: Ejer: A partir del tortues del paquete ade4,
+calcular el promedio y la desviación estándar de las alturas 
+de caparazones de las tortugas. Haga el análisis por sexo y grafíquelo.
+
+
+biblioteca (ade4)
+datos ("torturas")
+Ver (torturas)
+cabeza (torturas $ haut)
+# Para el promedio utilizamos la función mean ()
+Altura <-tortues $ haut
+PromedioA <-mean (tortues $ haut)
+PromedioA
+[1] 46.14583
+#Para la desviación estandar utilizaremos la función sd ()
+sdA <-sd (tortues $ haut)
+sdA
+[1] 8.384356
+
+# Ánalisis por sexo
+
+#M = Machos
+PromedioA <-mean (tortues $ haut [which (tortues $ sexe == "M")])
+PromedioA
+[1] 40.75
+sdA <-sd (tortues $ haut [which (tortues $ sexe == "M")])
+sdA
+[1] 3.352481
+
+# Gráfica M
+
+> AlturaCaparazonM <-tortues $ haut [which (tortues $ sexe == "M")]
+> hist (AlturaCaparazonM)
+
+
+# F = Hembras
+
+> PromedioAF <-mean (tortues $ haut [which (tortues $ sexe == "F")])
+> PromedioAF
+[1] 51.54167
+> sdAF <-sd (tortues $ haut [which (tortues $ sexe == "F")])
+> sdAF
+[1] 8.464654
+
+# Gráfica F
+> AlturaCaparazonF <-tortues $ haut [which (tortues $ sexe == "F")]
+> hist (AlturaCaparazonF)
+
+
+#Ejercicio 4: 
+
+Para ver como crecen exponencialmente, empecemos con 1000 bacterias en una matraz con una cantidad ilimitada de nutrientes.
+#NORTE
+N <-c (1000,2000,4000,8000,16000,32000)
+Dia <- (1: 6)
+#La gráfica se representa de la siguiente manera 
+CEB <- plot (Dia, N, xlab = "Días transcurridos", ylab = "Número de bacterias", main = "Crecimiento de bacterias", col = c ("# 56C667FF", "# 74D055FF", "# 94D840FF" , "# B8DE29FF", "# DCE318FF", "# FDE725FF"))
+
+#Se podría realizar una predicción de la cantidad de bacterias presentes en 10 días, si su crecimiento se duplica por medio de: 
+
+#NO representa la población inicial y lambda al factor de multiplicación de bacterias por día
+
+N0 <-1000
+lambda <-2
+tiempo <-0: 10
+Nt <-N0 * lambda ^ tiempo
+Nuevo Testamento
+
+## Ejercicio.Simule 5000 peces de criadero en un tanque, todos son de la misma cohorte. 
+## Imagina que los organiza en fila y quiere seleccionar 100 para calcular estadísticos de 
+## la población. Haga un muestreo sistemático y calcule los estadísticos y descriptivos vistos
+## anteriormente. Grafique
+
+# generar el estudio de 5000 peces de un estanque
+
+# vector para la cantidad de individuos de peces en el estanque
+Numero_pez <- c (1: 5000)
+
+# vector para la longitud de aleta en los peces del estanque 
+longitud <- abs (rnorm (5000,11,3)) 
+longitudreal <- round(longitud, 2)
+longitudreal
+# concatenando el número de peces y las longitudes de sus aletas, obteniendo así la tabla. 
+
+poblacion_peces <- cbind (Numero_pez, longitudreal)
+poblacion_peces
+
+# ahora los pasos para realizar el muestreo sistemático
+
+## definir tamaño de muestra
+
+n <- 100
+
+# hallar el intervalo de habitación (k), dividiendo el total de la población entre la muestra (N / n)
+
+N <- 5000
+
+K <- N / n
+
+# Elegir un número aleatorio desde 1 hata k (1er)
+
+primer <- sample(1:50,1)
+primer
+
+#Iniciamos en 1er y tomamos cada k hasta completar n
+
+muestra <- seq(primer, N, by = K)
+muestra
+
+## extraer las posiciones de la tabla #
+
+medidas_aleta <-poblacion_peces [, 2]
+medidas_aleta [muestra]
+
+# Hacer tabla para organizar datos de muestra
+
+numeros <- c(1:100)
+datospeces <- cbind(numeros, medidas_aleta [muestra])
+datospeces
+
+# CALCULAR ESTADÍSTICOS
+
+#  MEDIA, MEDIANA
+
+mean(datospeces[,2])
+median(datospeces[,2])
+
+
+#  MODA
+
+mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+mode(datospeces[,2])
+
+# CUANTILES
+
+quantile(datospeces[,2], probs = c(0.25, 0.50, 0.75))
+
+# MÍNIMO Y MÁXIMO
+
+min(datospeces[,2])
+max(datospeces[,2])
+
+# HISTOGRAMA
+
+range(datospeces[,2])
+
+rango <- seq(2, 20, 2)
+
+freq <- table(datospeces[,2])
+freq
+freq[which.max(freq)]
+
+min(freq)
+max(freq)
+
+
+hist(datospeces[ ,2], border = "black", col = "yellow", probability = T, breaks = rango, xlab = "LONGITUDES ALETAS 
+PECES (cm)", ylab = "DENSIDAD", xlim= c(2.43, 19.43), main = "HISTOGRAMA MUESTREO PECES")
+lines(density(datospeces[,2]), col="green", lwd = 2)
+
+# Graficar la media yla mediana 
+
+abline(v = mean(datospeces[,2]),
+       col = "royalblue",
+       lwd = 2)
+
+abline(v = median(datospeces[,2]),
+       col = "red",
+       lwd = 2)
+
+legend(x = "topright", 
+       c("Density plot", "Mean", "Median"),
+       col = c("green", "royalblue", "red"),
+       lwd = c(2, 2, 2))
+
